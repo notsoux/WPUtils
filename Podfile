@@ -13,6 +13,6 @@ post_install do |installer|
          config.build_settings['FRAMEWORK_SEARCH_PATHS'] = s
       end
       else
-      puts "WARNING: Pods-Tests-Specta target not found"
+      puts "WARNING: Pods target not found"
    end
 end
