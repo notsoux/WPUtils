@@ -9,15 +9,33 @@
 /* Begin PBXBuildFile section */
 		3D43FF9F19F53BB1002EA9A5 /* WPUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D43FF9E19F53BB1002EA9A5 /* WPUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D43FFA919F53BB1002EA9A5 /* WPUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D43FFA819F53BB1002EA9A5 /* WPUtilsTests.m */; };
+		3DE0D36519F53C48007A8F01 /* ComponentLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE0D35D19F53C48007A8F01 /* ComponentLocation.h */; };
+		3DE0D36619F53C48007A8F01 /* ComponentLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0D35E19F53C48007A8F01 /* ComponentLocation.m */; };
+		3DE0D36719F53C48007A8F01 /* ComponentTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE0D36019F53C48007A8F01 /* ComponentTimer.h */; };
+		3DE0D36819F53C48007A8F01 /* ComponentTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0D36119F53C48007A8F01 /* ComponentTimer.m */; };
+		3DE0D36919F53C48007A8F01 /* ComponentWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE0D36319F53C48007A8F01 /* ComponentWebSocket.h */; };
+		3DE0D36A19F53C48007A8F01 /* ComponentWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0D36419F53C48007A8F01 /* ComponentWebSocket.m */; };
+		3DE0D36C19F53C50007A8F01 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE0D36B19F53C50007A8F01 /* CoreLocation.framework */; };
+		AA5F79B11CE94D1B756CD884 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F54660E79FF41C2307C14F9 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29637D6E26FA1821627AE469 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		3D43FF9919F53BB1002EA9A5 /* WPUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WPUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D43FF9D19F53BB1002EA9A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D43FF9E19F53BB1002EA9A5 /* WPUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPUtils.h; sourceTree = "<group>"; };
 		3D43FFA419F53BB1002EA9A5 /* WPUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D43FFA719F53BB1002EA9A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D43FFA819F53BB1002EA9A5 /* WPUtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPUtilsTests.m; sourceTree = "<group>"; };
+		3DE0D35D19F53C48007A8F01 /* ComponentLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentLocation.h; sourceTree = "<group>"; };
+		3DE0D35E19F53C48007A8F01 /* ComponentLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentLocation.m; sourceTree = "<group>"; };
+		3DE0D36019F53C48007A8F01 /* ComponentTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentTimer.h; sourceTree = "<group>"; };
+		3DE0D36119F53C48007A8F01 /* ComponentTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentTimer.m; sourceTree = "<group>"; };
+		3DE0D36319F53C48007A8F01 /* ComponentWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentWebSocket.h; sourceTree = "<group>"; };
+		3DE0D36419F53C48007A8F01 /* ComponentWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentWebSocket.m; sourceTree = "<group>"; };
+		3DE0D36B19F53C50007A8F01 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9F54660E79FF41C2307C14F9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A3A88C6A6565B05FB04DE4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DE0D36C19F53C50007A8F01 /* CoreLocation.framework in Frameworks */,
+				AA5F79B11CE94D1B756CD884 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,12 +58,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25A74A77E6496C2F1129A1F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DE0D36B19F53C50007A8F01 /* CoreLocation.framework */,
+				9F54660E79FF41C2307C14F9 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		339BFB1BE303180038BA8E39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1A3A88C6A6565B05FB04DE4 /* Pods.debug.xcconfig */,
+				29637D6E26FA1821627AE469 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3D43FF8F19F53BB1002EA9A5 = {
 			isa = PBXGroup;
 			children = (
 				3D43FF9B19F53BB1002EA9A5 /* WPUtils */,
 				3D43FFA519F53BB1002EA9A5 /* WPUtilsTests */,
 				3D43FF9A19F53BB1002EA9A5 /* Products */,
+				339BFB1BE303180038BA8E39 /* Pods */,
+				25A74A77E6496C2F1129A1F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +99,7 @@
 		3D43FF9B19F53BB1002EA9A5 /* WPUtils */ = {
 			isa = PBXGroup;
 			children = (
+				3DE0D35B19F53C48007A8F01 /* components */,
 				3D43FF9E19F53BB1002EA9A5 /* WPUtils.h */,
 				3D43FF9C19F53BB1002EA9A5 /* Supporting Files */,
 			);
@@ -90,6 +131,43 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3DE0D35B19F53C48007A8F01 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				3DE0D35C19F53C48007A8F01 /* location */,
+				3DE0D35F19F53C48007A8F01 /* timer */,
+				3DE0D36219F53C48007A8F01 /* websocket */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		3DE0D35C19F53C48007A8F01 /* location */ = {
+			isa = PBXGroup;
+			children = (
+				3DE0D35D19F53C48007A8F01 /* ComponentLocation.h */,
+				3DE0D35E19F53C48007A8F01 /* ComponentLocation.m */,
+			);
+			path = location;
+			sourceTree = "<group>";
+		};
+		3DE0D35F19F53C48007A8F01 /* timer */ = {
+			isa = PBXGroup;
+			children = (
+				3DE0D36019F53C48007A8F01 /* ComponentTimer.h */,
+				3DE0D36119F53C48007A8F01 /* ComponentTimer.m */,
+			);
+			path = timer;
+			sourceTree = "<group>";
+		};
+		3DE0D36219F53C48007A8F01 /* websocket */ = {
+			isa = PBXGroup;
+			children = (
+				3DE0D36319F53C48007A8F01 /* ComponentWebSocket.h */,
+				3DE0D36419F53C48007A8F01 /* ComponentWebSocket.m */,
+			);
+			path = websocket;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -97,7 +175,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DE0D36919F53C48007A8F01 /* ComponentWebSocket.h in Headers */,
 				3D43FF9F19F53BB1002EA9A5 /* WPUtils.h in Headers */,
+				3DE0D36519F53C48007A8F01 /* ComponentLocation.h in Headers */,
+				3DE0D36719F53C48007A8F01 /* ComponentTimer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,10 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D43FFAC19F53BB1002EA9A5 /* Build configuration list for PBXNativeTarget "WPUtils" */;
 			buildPhases = (
+				6BA1B38DE68101191A29B9B8 /* Check Pods Manifest.lock */,
 				3D43FF9419F53BB1002EA9A5 /* Sources */,
 				3D43FF9519F53BB1002EA9A5 /* Frameworks */,
 				3D43FF9619F53BB1002EA9A5 /* Headers */,
 				3D43FF9719F53BB1002EA9A5 /* Resources */,
+				55AF8E287D813697AB81B122 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,11 +274,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		55AF8E287D813697AB81B122 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BA1B38DE68101191A29B9B8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D43FF9419F53BB1002EA9A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DE0D36A19F53C48007A8F01 /* ComponentWebSocket.m in Sources */,
+				3DE0D36619F53C48007A8F01 /* ComponentLocation.m in Sources */,
+				3DE0D36819F53C48007A8F01 /* ComponentTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +415,7 @@
 		};
 		3D43FFAD19F53BB1002EA9A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1A3A88C6A6565B05FB04DE4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -311,6 +431,7 @@
 		};
 		3D43FFAE19F53BB1002EA9A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29637D6E26FA1821627AE469 /* Pods.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -373,6 +494,7 @@
 				3D43FFAE19F53BB1002EA9A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D43FFAF19F53BB1002EA9A5 /* Build configuration list for PBXNativeTarget "WPUtilsTests" */ = {
 			isa = XCConfigurationList;
@@ -381,6 +503,7 @@
 				3D43FFB119F53BB1002EA9A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
