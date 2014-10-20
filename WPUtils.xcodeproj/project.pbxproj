@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3D43FF9F19F53BB1002EA9A5 /* WPUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D43FF9E19F53BB1002EA9A5 /* WPUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D43FFA919F53BB1002EA9A5 /* WPUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D43FFA819F53BB1002EA9A5 /* WPUtilsTests.m */; };
 		3DE0D36C19F53C50007A8F01 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE0D36B19F53C50007A8F01 /* CoreLocation.framework */; };
 		3DE0D39519F53EA0007A8F01 /* ComponentGUIMapViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE0D38719F53EA0007A8F01 /* ComponentGUIMapViewController.h */; };
 		3DE0D39619F53EA0007A8F01 /* ComponentGUIMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0D38819F53EA0007A8F01 /* ComponentGUIMapViewController.m */; };
@@ -34,9 +33,6 @@
 		3D43FF9919F53BB1002EA9A5 /* WPUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WPUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D43FF9D19F53BB1002EA9A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D43FF9E19F53BB1002EA9A5 /* WPUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPUtils.h; sourceTree = "<group>"; };
-		3D43FFA419F53BB1002EA9A5 /* WPUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D43FFA719F53BB1002EA9A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D43FFA819F53BB1002EA9A5 /* WPUtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPUtilsTests.m; sourceTree = "<group>"; };
 		3DE0D36B19F53C50007A8F01 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		3DE0D38719F53EA0007A8F01 /* ComponentGUIMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentGUIMapViewController.h; sourceTree = "<group>"; };
 		3DE0D38819F53EA0007A8F01 /* ComponentGUIMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentGUIMapViewController.m; sourceTree = "<group>"; };
@@ -68,13 +64,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D43FFA119F53BB1002EA9A5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -100,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				3D43FF9B19F53BB1002EA9A5 /* WPUtils */,
-				3D43FFA519F53BB1002EA9A5 /* WPUtilsTests */,
 				3D43FF9A19F53BB1002EA9A5 /* Products */,
 				339BFB1BE303180038BA8E39 /* Pods */,
 				25A74A77E6496C2F1129A1F1 /* Frameworks */,
@@ -111,7 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				3D43FF9919F53BB1002EA9A5 /* WPUtils.framework */,
-				3D43FFA419F53BB1002EA9A5 /* WPUtilsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,23 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				3D43FF9D19F53BB1002EA9A5 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3D43FFA519F53BB1002EA9A5 /* WPUtilsTests */ = {
-			isa = PBXGroup;
-			children = (
-				3D43FFA819F53BB1002EA9A5 /* WPUtilsTests.m */,
-				3D43FFA619F53BB1002EA9A5 /* Supporting Files */,
-			);
-			path = WPUtilsTests;
-			sourceTree = "<group>";
-		};
-		3D43FFA619F53BB1002EA9A5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3D43FFA719F53BB1002EA9A5 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -295,23 +265,6 @@
 			productReference = 3D43FF9919F53BB1002EA9A5 /* WPUtils.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3D43FFA319F53BB1002EA9A5 /* WPUtilsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3D43FFAF19F53BB1002EA9A5 /* Build configuration list for PBXNativeTarget "WPUtilsTests" */;
-			buildPhases = (
-				3D43FFA019F53BB1002EA9A5 /* Sources */,
-				3D43FFA119F53BB1002EA9A5 /* Frameworks */,
-				3D43FFA219F53BB1002EA9A5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = WPUtilsTests;
-			productName = WPUtilsTests;
-			productReference = 3D43FFA419F53BB1002EA9A5 /* WPUtilsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -322,9 +275,6 @@
 				ORGANIZATIONNAME = "William Pompei";
 				TargetAttributes = {
 					3D43FF9819F53BB1002EA9A5 = {
-						CreatedOnToolsVersion = 6.0.1;
-					};
-					3D43FFA319F53BB1002EA9A5 = {
 						CreatedOnToolsVersion = 6.0.1;
 					};
 				};
@@ -342,7 +292,6 @@
 			projectRoot = "";
 			targets = (
 				3D43FF9819F53BB1002EA9A5 /* WPUtils */,
-				3D43FFA319F53BB1002EA9A5 /* WPUtilsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -354,13 +303,6 @@
 			files = (
 				3DE0D39719F53EA0007A8F01 /* ComponentGUIMapViewController.xib in Resources */,
 				3DE0D39A19F53EA0007A8F01 /* ComponentGUITimerViewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D43FFA219F53BB1002EA9A5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,14 +353,6 @@
 				3DE0D3AC19F53EB1007A8F01 /* ComponentTimer.m in Sources */,
 				3DE0D39619F53EA0007A8F01 /* ComponentGUIMapViewController.m in Sources */,
 				3DE0D39919F53EA0007A8F01 /* ComponentGUITimerViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D43FFA019F53BB1002EA9A5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D43FFA919F53BB1002EA9A5 /* WPUtilsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,36 +475,6 @@
 			};
 			name = Release;
 		};
-		3D43FFB019F53BB1002EA9A5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = WPUtilsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		3D43FFB119F53BB1002EA9A5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = WPUtilsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -588,15 +492,6 @@
 			buildConfigurations = (
 				3D43FFAD19F53BB1002EA9A5 /* Debug */,
 				3D43FFAE19F53BB1002EA9A5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3D43FFAF19F53BB1002EA9A5 /* Build configuration list for PBXNativeTarget "WPUtilsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3D43FFB019F53BB1002EA9A5 /* Debug */,
-				3D43FFB119F53BB1002EA9A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
