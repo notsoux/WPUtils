@@ -9,17 +9,23 @@
 /* Begin PBXBuildFile section */
 		3D43FF9F19F53BB1002EA9A5 /* WPUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D43FF9E19F53BB1002EA9A5 /* WPUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D43FFA919F53BB1002EA9A5 /* WPUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D43FFA819F53BB1002EA9A5 /* WPUtilsTests.m */; };
-		3DE0D36519F53C48007A8F01 /* ComponentLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE0D35D19F53C48007A8F01 /* ComponentLocation.h */; };
-		3DE0D36619F53C48007A8F01 /* ComponentLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0D35E19F53C48007A8F01 /* ComponentLocation.m */; };
-		3DE0D36719F53C48007A8F01 /* ComponentTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE0D36019F53C48007A8F01 /* ComponentTimer.h */; };
-		3DE0D36819F53C48007A8F01 /* ComponentTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0D36119F53C48007A8F01 /* ComponentTimer.m */; };
-		3DE0D36919F53C48007A8F01 /* ComponentWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE0D36319F53C48007A8F01 /* ComponentWebSocket.h */; };
-		3DE0D36A19F53C48007A8F01 /* ComponentWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0D36419F53C48007A8F01 /* ComponentWebSocket.m */; };
 		3DE0D36C19F53C50007A8F01 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE0D36B19F53C50007A8F01 /* CoreLocation.framework */; };
-		3DE0D37319F53E04007A8F01 /* FormattingUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE0D36E19F53E04007A8F01 /* FormattingUtil.h */; };
-		3DE0D37419F53E04007A8F01 /* FormattingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0D36F19F53E04007A8F01 /* FormattingUtil.m */; };
-		3DE0D37519F53E04007A8F01 /* LayoutUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE0D37119F53E04007A8F01 /* LayoutUtil.h */; };
-		3DE0D37619F53E04007A8F01 /* LayoutUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0D37219F53E04007A8F01 /* LayoutUtil.m */; };
+		3DE0D39519F53EA0007A8F01 /* ComponentGUIMapViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE0D38719F53EA0007A8F01 /* ComponentGUIMapViewController.h */; };
+		3DE0D39619F53EA0007A8F01 /* ComponentGUIMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0D38819F53EA0007A8F01 /* ComponentGUIMapViewController.m */; };
+		3DE0D39719F53EA0007A8F01 /* ComponentGUIMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DE0D38919F53EA0007A8F01 /* ComponentGUIMapViewController.xib */; };
+		3DE0D39819F53EA0007A8F01 /* ComponentGUITimerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE0D38B19F53EA0007A8F01 /* ComponentGUITimerViewController.h */; };
+		3DE0D39919F53EA0007A8F01 /* ComponentGUITimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0D38C19F53EA0007A8F01 /* ComponentGUITimerViewController.m */; };
+		3DE0D39A19F53EA0007A8F01 /* ComponentGUITimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DE0D38D19F53EA0007A8F01 /* ComponentGUITimerViewController.xib */; };
+		3DE0D39B19F53EA0007A8F01 /* FormattingUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE0D39019F53EA0007A8F01 /* FormattingUtil.h */; };
+		3DE0D39C19F53EA0007A8F01 /* FormattingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0D39119F53EA0007A8F01 /* FormattingUtil.m */; };
+		3DE0D39D19F53EA0007A8F01 /* LayoutUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE0D39319F53EA0007A8F01 /* LayoutUtil.h */; };
+		3DE0D39E19F53EA0007A8F01 /* LayoutUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0D39419F53EA0007A8F01 /* LayoutUtil.m */; };
+		3DE0D3A919F53EB1007A8F01 /* ComponentLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE0D3A119F53EB1007A8F01 /* ComponentLocation.h */; };
+		3DE0D3AA19F53EB1007A8F01 /* ComponentLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0D3A219F53EB1007A8F01 /* ComponentLocation.m */; };
+		3DE0D3AB19F53EB1007A8F01 /* ComponentTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE0D3A419F53EB1007A8F01 /* ComponentTimer.h */; };
+		3DE0D3AC19F53EB1007A8F01 /* ComponentTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0D3A519F53EB1007A8F01 /* ComponentTimer.m */; };
+		3DE0D3AD19F53EB1007A8F01 /* ComponentWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE0D3A719F53EB1007A8F01 /* ComponentWebSocket.h */; };
+		3DE0D3AE19F53EB1007A8F01 /* ComponentWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0D3A819F53EB1007A8F01 /* ComponentWebSocket.m */; };
 		AA5F79B11CE94D1B756CD884 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F54660E79FF41C2307C14F9 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -31,17 +37,23 @@
 		3D43FFA419F53BB1002EA9A5 /* WPUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D43FFA719F53BB1002EA9A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D43FFA819F53BB1002EA9A5 /* WPUtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPUtilsTests.m; sourceTree = "<group>"; };
-		3DE0D35D19F53C48007A8F01 /* ComponentLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentLocation.h; sourceTree = "<group>"; };
-		3DE0D35E19F53C48007A8F01 /* ComponentLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentLocation.m; sourceTree = "<group>"; };
-		3DE0D36019F53C48007A8F01 /* ComponentTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentTimer.h; sourceTree = "<group>"; };
-		3DE0D36119F53C48007A8F01 /* ComponentTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentTimer.m; sourceTree = "<group>"; };
-		3DE0D36319F53C48007A8F01 /* ComponentWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentWebSocket.h; sourceTree = "<group>"; };
-		3DE0D36419F53C48007A8F01 /* ComponentWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentWebSocket.m; sourceTree = "<group>"; };
 		3DE0D36B19F53C50007A8F01 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		3DE0D36E19F53E04007A8F01 /* FormattingUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormattingUtil.h; sourceTree = "<group>"; };
-		3DE0D36F19F53E04007A8F01 /* FormattingUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormattingUtil.m; sourceTree = "<group>"; };
-		3DE0D37119F53E04007A8F01 /* LayoutUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutUtil.h; sourceTree = "<group>"; };
-		3DE0D37219F53E04007A8F01 /* LayoutUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutUtil.m; sourceTree = "<group>"; };
+		3DE0D38719F53EA0007A8F01 /* ComponentGUIMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentGUIMapViewController.h; sourceTree = "<group>"; };
+		3DE0D38819F53EA0007A8F01 /* ComponentGUIMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentGUIMapViewController.m; sourceTree = "<group>"; };
+		3DE0D38919F53EA0007A8F01 /* ComponentGUIMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComponentGUIMapViewController.xib; sourceTree = "<group>"; };
+		3DE0D38B19F53EA0007A8F01 /* ComponentGUITimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentGUITimerViewController.h; sourceTree = "<group>"; };
+		3DE0D38C19F53EA0007A8F01 /* ComponentGUITimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentGUITimerViewController.m; sourceTree = "<group>"; };
+		3DE0D38D19F53EA0007A8F01 /* ComponentGUITimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComponentGUITimerViewController.xib; sourceTree = "<group>"; };
+		3DE0D39019F53EA0007A8F01 /* FormattingUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormattingUtil.h; sourceTree = "<group>"; };
+		3DE0D39119F53EA0007A8F01 /* FormattingUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormattingUtil.m; sourceTree = "<group>"; };
+		3DE0D39319F53EA0007A8F01 /* LayoutUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutUtil.h; sourceTree = "<group>"; };
+		3DE0D39419F53EA0007A8F01 /* LayoutUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutUtil.m; sourceTree = "<group>"; };
+		3DE0D3A119F53EB1007A8F01 /* ComponentLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentLocation.h; sourceTree = "<group>"; };
+		3DE0D3A219F53EB1007A8F01 /* ComponentLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentLocation.m; sourceTree = "<group>"; };
+		3DE0D3A419F53EB1007A8F01 /* ComponentTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentTimer.h; sourceTree = "<group>"; };
+		3DE0D3A519F53EB1007A8F01 /* ComponentTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentTimer.m; sourceTree = "<group>"; };
+		3DE0D3A719F53EB1007A8F01 /* ComponentWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentWebSocket.h; sourceTree = "<group>"; };
+		3DE0D3A819F53EB1007A8F01 /* ComponentWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentWebSocket.m; sourceTree = "<group>"; };
 		9F54660E79FF41C2307C14F9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A3A88C6A6565B05FB04DE4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,58 +154,104 @@
 		3DE0D35B19F53C48007A8F01 /* components */ = {
 			isa = PBXGroup;
 			children = (
-				3DE0D36D19F53E04007A8F01 /* formatting */,
-				3DE0D37019F53E04007A8F01 /* layout */,
-				3DE0D35C19F53C48007A8F01 /* location */,
-				3DE0D35F19F53C48007A8F01 /* timer */,
-				3DE0D36219F53C48007A8F01 /* websocket */,
+				3DE0D39F19F53EB1007A8F01 /* lib */,
+				3DE0D38519F53EA0007A8F01 /* gui */,
+				3DE0D38E19F53EA0007A8F01 /* util */,
 			);
 			path = components;
 			sourceTree = "<group>";
 		};
-		3DE0D35C19F53C48007A8F01 /* location */ = {
+		3DE0D38519F53EA0007A8F01 /* gui */ = {
 			isa = PBXGroup;
 			children = (
-				3DE0D35D19F53C48007A8F01 /* ComponentLocation.h */,
-				3DE0D35E19F53C48007A8F01 /* ComponentLocation.m */,
+				3DE0D38619F53EA0007A8F01 /* map */,
+				3DE0D38A19F53EA0007A8F01 /* tracker */,
 			);
-			path = location;
+			path = gui;
 			sourceTree = "<group>";
 		};
-		3DE0D35F19F53C48007A8F01 /* timer */ = {
+		3DE0D38619F53EA0007A8F01 /* map */ = {
 			isa = PBXGroup;
 			children = (
-				3DE0D36019F53C48007A8F01 /* ComponentTimer.h */,
-				3DE0D36119F53C48007A8F01 /* ComponentTimer.m */,
+				3DE0D38719F53EA0007A8F01 /* ComponentGUIMapViewController.h */,
+				3DE0D38819F53EA0007A8F01 /* ComponentGUIMapViewController.m */,
+				3DE0D38919F53EA0007A8F01 /* ComponentGUIMapViewController.xib */,
 			);
-			path = timer;
+			path = map;
 			sourceTree = "<group>";
 		};
-		3DE0D36219F53C48007A8F01 /* websocket */ = {
+		3DE0D38A19F53EA0007A8F01 /* tracker */ = {
 			isa = PBXGroup;
 			children = (
-				3DE0D36319F53C48007A8F01 /* ComponentWebSocket.h */,
-				3DE0D36419F53C48007A8F01 /* ComponentWebSocket.m */,
+				3DE0D38B19F53EA0007A8F01 /* ComponentGUITimerViewController.h */,
+				3DE0D38C19F53EA0007A8F01 /* ComponentGUITimerViewController.m */,
+				3DE0D38D19F53EA0007A8F01 /* ComponentGUITimerViewController.xib */,
 			);
-			path = websocket;
+			path = tracker;
 			sourceTree = "<group>";
 		};
-		3DE0D36D19F53E04007A8F01 /* formatting */ = {
+		3DE0D38E19F53EA0007A8F01 /* util */ = {
 			isa = PBXGroup;
 			children = (
-				3DE0D36E19F53E04007A8F01 /* FormattingUtil.h */,
-				3DE0D36F19F53E04007A8F01 /* FormattingUtil.m */,
+				3DE0D38F19F53EA0007A8F01 /* formatting */,
+				3DE0D39219F53EA0007A8F01 /* layout */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		3DE0D38F19F53EA0007A8F01 /* formatting */ = {
+			isa = PBXGroup;
+			children = (
+				3DE0D39019F53EA0007A8F01 /* FormattingUtil.h */,
+				3DE0D39119F53EA0007A8F01 /* FormattingUtil.m */,
 			);
 			path = formatting;
 			sourceTree = "<group>";
 		};
-		3DE0D37019F53E04007A8F01 /* layout */ = {
+		3DE0D39219F53EA0007A8F01 /* layout */ = {
 			isa = PBXGroup;
 			children = (
-				3DE0D37119F53E04007A8F01 /* LayoutUtil.h */,
-				3DE0D37219F53E04007A8F01 /* LayoutUtil.m */,
+				3DE0D39319F53EA0007A8F01 /* LayoutUtil.h */,
+				3DE0D39419F53EA0007A8F01 /* LayoutUtil.m */,
 			);
 			path = layout;
+			sourceTree = "<group>";
+		};
+		3DE0D39F19F53EB1007A8F01 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				3DE0D3A019F53EB1007A8F01 /* location */,
+				3DE0D3A319F53EB1007A8F01 /* timer */,
+				3DE0D3A619F53EB1007A8F01 /* websocket */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		3DE0D3A019F53EB1007A8F01 /* location */ = {
+			isa = PBXGroup;
+			children = (
+				3DE0D3A119F53EB1007A8F01 /* ComponentLocation.h */,
+				3DE0D3A219F53EB1007A8F01 /* ComponentLocation.m */,
+			);
+			path = location;
+			sourceTree = "<group>";
+		};
+		3DE0D3A319F53EB1007A8F01 /* timer */ = {
+			isa = PBXGroup;
+			children = (
+				3DE0D3A419F53EB1007A8F01 /* ComponentTimer.h */,
+				3DE0D3A519F53EB1007A8F01 /* ComponentTimer.m */,
+			);
+			path = timer;
+			sourceTree = "<group>";
+		};
+		3DE0D3A619F53EB1007A8F01 /* websocket */ = {
+			isa = PBXGroup;
+			children = (
+				3DE0D3A719F53EB1007A8F01 /* ComponentWebSocket.h */,
+				3DE0D3A819F53EB1007A8F01 /* ComponentWebSocket.m */,
+			);
+			path = websocket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,12 +261,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DE0D36919F53C48007A8F01 /* ComponentWebSocket.h in Headers */,
+				3DE0D3AD19F53EB1007A8F01 /* ComponentWebSocket.h in Headers */,
 				3D43FF9F19F53BB1002EA9A5 /* WPUtils.h in Headers */,
-				3DE0D37319F53E04007A8F01 /* FormattingUtil.h in Headers */,
-				3DE0D36519F53C48007A8F01 /* ComponentLocation.h in Headers */,
-				3DE0D37519F53E04007A8F01 /* LayoutUtil.h in Headers */,
-				3DE0D36719F53C48007A8F01 /* ComponentTimer.h in Headers */,
+				3DE0D39519F53EA0007A8F01 /* ComponentGUIMapViewController.h in Headers */,
+				3DE0D39819F53EA0007A8F01 /* ComponentGUITimerViewController.h in Headers */,
+				3DE0D39B19F53EA0007A8F01 /* FormattingUtil.h in Headers */,
+				3DE0D3A919F53EB1007A8F01 /* ComponentLocation.h in Headers */,
+				3DE0D39D19F53EA0007A8F01 /* LayoutUtil.h in Headers */,
+				3DE0D3AB19F53EB1007A8F01 /* ComponentTimer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +352,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DE0D39719F53EA0007A8F01 /* ComponentGUIMapViewController.xib in Resources */,
+				3DE0D39A19F53EA0007A8F01 /* ComponentGUITimerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,11 +404,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DE0D37419F53E04007A8F01 /* FormattingUtil.m in Sources */,
-				3DE0D36A19F53C48007A8F01 /* ComponentWebSocket.m in Sources */,
-				3DE0D36619F53C48007A8F01 /* ComponentLocation.m in Sources */,
-				3DE0D36819F53C48007A8F01 /* ComponentTimer.m in Sources */,
-				3DE0D37619F53E04007A8F01 /* LayoutUtil.m in Sources */,
+				3DE0D39E19F53EA0007A8F01 /* LayoutUtil.m in Sources */,
+				3DE0D39C19F53EA0007A8F01 /* FormattingUtil.m in Sources */,
+				3DE0D3AA19F53EB1007A8F01 /* ComponentLocation.m in Sources */,
+				3DE0D3AE19F53EB1007A8F01 /* ComponentWebSocket.m in Sources */,
+				3DE0D3AC19F53EB1007A8F01 /* ComponentTimer.m in Sources */,
+				3DE0D39619F53EA0007A8F01 /* ComponentGUIMapViewController.m in Sources */,
+				3DE0D39919F53EA0007A8F01 /* ComponentGUITimerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
